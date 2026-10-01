@@ -2,11 +2,11 @@
 using namespace std;
 
 int main(){
+    //varible declaration
     int age;
-    cout << "Enter your age: ";
     cin >> age;
 
-    cout << "your age is : "<<age <<endl;
-
+    age>18 ? cout << "You are eligible to vote" : cout << "You are not eligible to vote";
+  
     return 0;
 }
